@@ -8,8 +8,11 @@ import com.java.learn.LeetCode.String.ValidParentheses;
 public class MainClass {
     public static void main(String[] args){
         BinarySearch bin = new BinarySearch();
+        SquareX sq = new SquareX();
+
 
         int[] nums = {4,5,6,7,0,1,2};
+        System.out.println(sq.mySqrt(5));
         System.out.println(bin.binary(nums,0));
         
     }
